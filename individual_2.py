@@ -10,3 +10,5 @@ def initial_letters():
         else:
             break
     print(result)
+    
+initial_letters()
