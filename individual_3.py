@@ -5,3 +5,6 @@ def delet_c():
         if i != 'c' and i != 'с':
             result += i
     print(result)
+  
+
+delet_c()
