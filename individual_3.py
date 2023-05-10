@@ -8,6 +8,3 @@ if __name__ == '__main__':
         if i != 'c' and i != 'с':
             result += i
     print(result)
-  
-
-delet_c()
