@@ -1,4 +1,13 @@
-def initial_letters():
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+
+if __name__ == '__main__':
+    word = input('Введите слово: ')
+    result = ''
+    for i in word:
+        if i != 'c' and i != 'с':
+            result += i
+    print(result)
     word_1 = input('Введите первое слово: ')
     word_2 = input('Введите второе слово: ')
     result = 0
@@ -11,4 +20,3 @@ def initial_letters():
             break
     print(result)
     
-initial_letters()
